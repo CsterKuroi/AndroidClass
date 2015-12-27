@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aaa.MainActivity" >
+    
+    <FrameLayout
+        android:id="@+id/main_tab_banner"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+       android:background="@drawable/title"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+  
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="35dp"
+             android:layout_gravity="center"
+             
+             android:textSize="30dip" />
+
+    </FrameLayout>
+ 
+  <LinearLayout 
+      android:id="@+id/main_tab"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:gravity="center"
+      android:orientation="horizontal" >
+      <TabHost 
+          
+          android:id="@+id/main_tab2"
+          android:layout_width="fill_parent"
+       
+          android:layout_height="fill_parent">
+          <LinearLayout 
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              
+              android:orientation="vertical">
+              <FrameLayout 
+                  android:id="@android:id/tabcontent"
+                  android:layout_width="fill_parent"
+                  android:layout_height="0.0dip"
+                  android:layout_weight="1.0"/>
+                  <TabWidget 
+                      android:id="@android:id/tabs"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="0.0"
+                      android:visibility="gone"/>
+
+                  <RadioGroup
+                      android:layout_width="fill_parent"
+                      android:layout_height="80dp"
+                      android:layout_gravity="bottom"
+                      android:background="@drawable/bottom"
+                      android:gravity="center_vertical"
+                      android:orientation="horizontal" >
+
+                      <RadioButton
+                          android:id="@+id/radio_button1"
+                          style="@style/tab_style"
+                          android:layout_width="62dp"
+                          android:layout_height="80dp"
+                          android:layout_marginBottom="0.0dip"
+                          android:layout_marginTop="0.0dip"
+                          android:layout_weight="0.40"
+                          android:background="@drawable/message" />
+
+                      <RadioButton
+                          android:id="@+id/radio_button2"
+                          style="@style/tab_style"
+                          android:layout_width="68dp"
+                          android:layout_height="80dp"
+                          android:layout_marginBottom="0.0dip"
+                          android:layout_marginTop="0.0dip"
+                          android:layout_weight="0.56"
+                          android:background="@drawable/camera" />
+
+                      <RadioButton
+                          android:id="@+id/radio_button3"
+                          style="@style/tab_style"
+                          android:layout_width="66dp"
+                          android:layout_height="80dp"
+                          android:layout_marginBottom="0.0dip"
+                          android:layout_marginTop="0.0dip"
+                          android:layout_weight="0.32"
+                          android:background="@drawable/search" />
+                  </RadioGroup>
+
+          </LinearLayout>
+      </TabHost>
+  </LinearLayout>
+     
+ <LinearLayout 
+     android:id="@+id/main_tab_container"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_above="@id/main_tab"
+     android:layout_below="@id/main_tab_banner"
+     android:background="#FFFFE0">
+     <com.baidu.mapapi.map.MapView  
+      android:id="@+id/bmapView"  
+      android:layout_width="fill_parent"  
+    android:layout_height="fill_parent" 
+    android:clickable="true" />       
+ </LinearLayout>    
+ <LinearLayout 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent">
+    <LinearLayout android:id="@+id/splashscreen"  
+        android:orientation="vertical"   
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent">  
+       <ImageView 
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:background="@drawable/start"/>
+        <TextView android:id="@+id/info"   
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"   
+            android:gravity="center"  
+            android:paddingTop="10px"   
+            android:text="This is a splash !" />  
+    </LinearLayout>   
+</LinearLayout> 
+</RelativeLayout>
+ 

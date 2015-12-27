@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_int"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_mp"
+        android:background="@drawable/shape"
+        android:layout_marginTop="50dp"
+        android:text="网址" />
+
+    <Button
+        android:id="@+id/button_mp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="60dp"
+        android:text="名片" />
+
+    <Button
+        android:id="@+id/button_txt"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_int"
+        android:layout_marginTop="47dp"
+        android:text="文本" />
+
+    <TextView
+        android:id="@+id/textView1"
+  android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+       
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="请选择输入类型" />
+    
+</RelativeLayout>

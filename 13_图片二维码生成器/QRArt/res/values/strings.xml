@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World</string>
+    <string name="app_name">QRART</string>
+    <string name="title_activity_second">Second</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_third">Third</string>
+    <string name="title_activity_mp">Mp</string>
+    <string name="title_activity_wz">Wz</string>
+    <string name="title_activity_txt">Txt</string>
+    <string name="title_activity_qrcreat">Qrcreat</string>
+
+</resources>

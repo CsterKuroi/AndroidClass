@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Spark</string>
+    <string name="title_activity_content">ContentActivity</string>
+</resources>

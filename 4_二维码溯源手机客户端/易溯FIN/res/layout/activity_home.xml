@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qiushou"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.food.trace.HomeActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" 
+        android:layout_weight="5"
+        >
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:src="@drawable/home1" />
+
+        <Button
+            android:id="@+id/scan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+
+            android:layout_centerHorizontal="true"
+        	android:layout_centerInParent="true"
+            android:text="进入扫一扫"
+            android:textSize="25sp"
+            android:typeface="normal" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="9"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        android:text="注册用户可以享受更多服务喔！"
+        android:textColor="#ffff0000"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:typeface="normal" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="6"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:src="@drawable/home2" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="7"
+            android:layout_marginTop="11dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#7fff0000"
+                android:layout_marginLeft="30dp"
+     			android:layout_marginRight="10dp"
+                android:text="注册"
+                android:textSize="20sp"
+                android:textColor="#333333" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#7fff0000"
+     			android:layout_marginLeft="10dp"
+     			android:layout_marginRight="30dp"
+                android:text="登录"
+                android:textSize="20sp"
+                android:textColor="#333333" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

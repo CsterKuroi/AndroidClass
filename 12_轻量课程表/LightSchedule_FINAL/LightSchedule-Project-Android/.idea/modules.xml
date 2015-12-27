@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LightSchedule-Project-Android.iml" filepath="$PROJECT_DIR$/LightSchedule-Project-Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/barCode/barCode.iml" filepath="$PROJECT_DIR$/barCode/barCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lightschedule/lightschedule.iml" filepath="$PROJECT_DIR$/lightschedule/lightschedule.iml" />
+    </modules>
+  </component>
+</project>

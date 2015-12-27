@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+     >
+<RelativeLayout
+        android:id="@+id/top_relative"
+        android:layout_width="fill_parent"
+        android:background="@drawable/head_bg"
+        android:layout_height="50.0dip" >
+         <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:background="@drawable/back"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5.0dip"
+        android:textColor="@android:color/white"
+        android:text="返回"
+         />
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="18dp"
+        android:text="二维码图片"
+        android:textColor="@android:color/white"
+        android:singleLine="true" />
+</RelativeLayout>
+
+    <ImageView 
+        android:id="@+id/img"
+        android:layout_below="@id/top_relative"
+        android:layout_centerInParent="true"
+        android:layout_width="300dip"
+        android:layout_height="300dip"/>
+    <RelativeLayout android:id="@+id/adcontainer"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="50dip"
+		>
+	</RelativeLayout>
+<LinearLayout
+    android:id="@+id/buttons"
+    android:layout_width="fill_parent"
+    
+    android:layout_height="50dip"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dip"
+>
+    
+     <Button 
+       
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:background="@drawable/close_left"
+            android:text="保存"
+            android:id="@+id/save"
+            />
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:background="@drawable/close_right"
+            android:text="分享"
+            android:id="@+id/share"
+            />
+    
+    
+    </LinearLayout>>
+</RelativeLayout>

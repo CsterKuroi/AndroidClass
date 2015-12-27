@@ -1,0 +1,216 @@
+[
+    {
+        "outputFile": "E:\\KC\\Yuri\\workroom\\lifeholder\\lib_dateTimePicker\\build\\intermediates\\res\\merged\\release\\values-be\\values-be.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 101,
+                    "endOffset": 202
+                },
+                "from": {
+                    "file": "E:\\KC\\Yuri\\workroom\\lifeholder\\lib_dateTimePicker\\src\\main\\res\\values-be\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1299,
+                        "endColumn": 101,
+                        "endOffset": 1396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 207,
+                    "endColumn": 108,
+                    "endOffset": 311
+                },
+                "from": {
+                    "file": "E:\\KC\\Yuri\\workroom\\lifeholder\\lib_dateTimePicker\\src\\main\\res\\values-be\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1794,
+                        "endColumn": 112,
+                        "endOffset": 1902
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 316,
+                    "endColumn": 75,
+                    "endOffset": 387
+                },
+                "from": {
+                    "file": "E:\\KC\\Yuri\\workroom\\lifeholder\\lib_dateTimePicker\\src\\main\\res\\values-be\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 809,
+                        "endColumn": 75,
+                        "endOffset": 880
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 392,
+                    "endColumn": 116,
+                    "endOffset": 504
+                },
+                "from": {
+                    "file": "E:\\KC\\Yuri\\workroom\\lifeholder\\lib_dateTimePicker\\src\\main\\res\\values-be\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 885,
+                        "endColumn": 116,
+                        "endOffset": 997
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 509,
+                    "endColumn": 120,
+                    "endOffset": 625
+                },
+                "from": {
+                    "file": "E:\\KC\\Yuri\\workroom\\lifeholder\\lib_dateTimePicker\\src\\main\\res\\values-be\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1669,
+                        "endColumn": 124,
+                        "endOffset": 1789
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 630,
+                    "endColumn": 118,
+                    "endOffset": 744
+                },
+                "from": {
+                    "file": "E:\\KC\\Yuri\\workroom\\lifeholder\\lib_dateTimePicker\\src\\main\\res\\values-be\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1002,
+                        "endColumn": 118,
+                        "endOffset": 1116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 749,
+                    "endColumn": 91,
+                    "endOffset": 836
+                },
+                "from": {
+                    "file": "E:\\KC\\Yuri\\workroom\\lifeholder\\lib_dateTimePicker\\src\\main\\res\\values-be\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1494,
+                        "endColumn": 91,
+                        "endOffset": 1581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 841,
+                    "endColumn": 87,
+                    "endOffset": 924
+                },
+                "from": {
+                    "file": "E:\\KC\\Yuri\\workroom\\lifeholder\\lib_dateTimePicker\\src\\main\\res\\values-be\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1121,
+                        "endColumn": 87,
+                        "endOffset": 1204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 929,
+                    "endColumn": 89,
+                    "endOffset": 1014
+                },
+                "from": {
+                    "file": "E:\\KC\\Yuri\\workroom\\lifeholder\\lib_dateTimePicker\\src\\main\\res\\values-be\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1209,
+                        "endColumn": 89,
+                        "endOffset": 1294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1019,
+                    "endColumn": 82,
+                    "endOffset": 1097
+                },
+                "from": {
+                    "file": "E:\\KC\\Yuri\\workroom\\lifeholder\\lib_dateTimePicker\\src\\main\\res\\values-be\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1586,
+                        "endColumn": 82,
+                        "endOffset": 1664
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1102,
+                    "endColumn": 92,
+                    "endOffset": 1190
+                },
+                "from": {
+                    "file": "E:\\KC\\Yuri\\workroom\\lifeholder\\lib_dateTimePicker\\src\\main\\res\\values-be\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1401,
+                        "endColumn": 92,
+                        "endOffset": 1489
+                    }
+                }
+            }
+        ]
+    }
+]

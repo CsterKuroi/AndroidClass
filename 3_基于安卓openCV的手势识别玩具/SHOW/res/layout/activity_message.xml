@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.meterial.MessageActivity" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_set_5_primary" >
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:textStyle= "bold"
+            android:text="  Designed "
+            android:textColor="@color/text"
+            android:textSize="100px" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/fab_button"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/ripple_round"
+        android:transitionName="fab" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="330dp"
+        android:layout_height="144dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:text="        by HansYang EjaneWong YuFisherMan "
+        android:textColor="@color/text"
+        android:textSize="30px" />
+    
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.com.bleapp0914.fragment.HackFragment"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSendATSP6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Send ATSP6" />
+
+            <Button
+                android:id="@+id/btnSendATCFC1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Send ATCFC1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSendATCAF0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Send ATCAF0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btnSendATSH"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="ATSH" />
+
+                <EditText
+                    android:id="@+id/etSH"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="N-750, E-7E0"
+                    android:text="750" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnTurnOnFarLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开远光灯" />
+
+        <Button
+            android:id="@+id/btnTurnOnHorn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开喇叭" />
+
+        <Button
+            android:id="@+id/btnLock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关车锁" />
+
+        <Button
+            android:id="@+id/btnUnlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开车锁" />
+
+        <Button
+            android:id="@+id/btnTurnOnDoubleLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="开双闪" />
+
+        <Button
+            android:id="@+id/btnTurnOffEngine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发动机失速(SH7E0)" />
+
+
+</LinearLayout>

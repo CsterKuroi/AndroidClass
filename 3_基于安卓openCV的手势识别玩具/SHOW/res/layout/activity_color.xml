@@ -1,0 +1,194 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.meterial.ColorActivity" >
+
+   
+    <View
+        android:id="@+id/reveal_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:colorAccent"
+        android:elevation="5dp"
+        android:visibility="invisible"/>
+
+    <View
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:background="?android:colorPrimary" />
+
+        <RelativeLayout
+            android:id="@+id/holder_view"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:paddingLeft="72dp"
+            android:paddingRight="16dp"
+            android:transitionName="holder1"
+            android:layout_below="@id/toolbar"
+            android:background="?android:colorPrimary">
+        
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/holder_view"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:text="Controls"
+            android:textColor="?android:colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal" >
+
+            <Switch
+                android:id="@+id/theme_switch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="7"
+                android:text="BlueTooth" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical"
+                android:text="More controls"
+                android:textColor="?android:colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/circle_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal" >
+
+            <View
+                android:id="@+id/circle1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/color1"
+                android:clickable="true"
+                android:onClick="view" />
+
+            <View
+                android:id="@+id/circle2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/color2"
+                android:clickable="true"
+                android:onClick="view" />
+
+            <View
+                android:id="@+id/circle3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/color3"
+                android:clickable="true"
+                android:onClick="view" />
+
+            <View
+                android:id="@+id/circle4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/color4"
+                android:clickable="true"
+                android:onClick="view" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fab_button"
+        android:transitionName="fab"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@drawable/ripple_round"
+        android:stateListAnimator="@anim/fab_anim"
+        android:elevation="4dp"
+        android:layout_below="@+id/holder_view"
+        android:layout_marginTop="-26dp"
+        android:layout_alignParentEnd="true"
+        android:onClick="view" />
+        />
+
+    <ImageView
+        android:id="@+id/finger1"
+        android:layout_width="35dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/reveal_view"
+        android:layout_alignLeft="@+id/reveal_view"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="68dp"
+        android:background="@drawable/finger1" />
+
+    <ImageView
+        android:id="@+id/finger2"
+        android:layout_width="35dp"
+        android:layout_height="48dp"
+        android:layout_alignTop="@+id/finger1"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/finger1"
+        android:background="@drawable/finger2" />
+
+    <ImageView
+        android:id="@+id/finger4"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/finger2"
+        android:layout_alignTop="@+id/finger2"
+        android:layout_marginLeft="27dp"
+        android:layout_toRightOf="@+id/finger2"
+        android:background="@drawable/finger4" />
+
+    <ImageView
+        android:id="@+id/finger3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/finger4"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@+id/finger4"
+        android:background="@drawable/finger3" />
+
+</RelativeLayout>
+
+<!--android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"  -->

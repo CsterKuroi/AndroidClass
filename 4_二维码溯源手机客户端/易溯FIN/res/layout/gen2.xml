@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/qiushou" >
+
+<RelativeLayout
+        android:id="@+id/top_relative"
+        android:layout_width="fill_parent"
+        android:background="@drawable/head_bg"
+        android:layout_height="50.0dip" >
+       
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="18dp"
+        android:text="选择展示信息"
+        android:textColor="@android:color/white"
+        android:singleLine="true" />
+
+
+</RelativeLayout>
+<EditText 
+    android:id="@+id/input"
+    android:layout_below="@id/top_relative"
+    android:padding="5dip"
+    android:maxLength="20"
+    android:gravity="center"
+    android:hint="请输入要生成二维码的产品名"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dip"/>
+
+<ScrollView       
+    android:layout_below="@id/input"
+	android:id="@+id/lv_item"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="60dip"    
+    android:scrollbars="vertical"    
+    android:fadingEdge="vertical">    
+    <LinearLayout    
+        android:layout_width="fill_parent"    
+        android:layout_height="fill_parent"    
+        android:orientation="vertical"    
+        >
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="50dip"
+		    android:gravity="center_vertical"
+		    android:orientation="horizontal" >
+		    
+		    <TextView
+	        android:id="@+id/ConductType1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginStart="10dip"
+	        android:text="ProductType："
+	        android:textColor="#8800ff"
+	        android:textSize="18sp"/>
+		    <LinearLayout  
+	        android:layout_width="fill_parent"  
+	        android:layout_height="wrap_content"  
+	        android:gravity="end" > 
+		    <CheckBox
+             android:id="@+id/checkBox1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/btn_pressed" 
+	         android:layout_marginRight="10dip"
+	         android:layout_marginEnd="10dip"
+             android:checked="false"
+             android:text="显示" />
+	        </LinearLayout> 
+		</LinearLayout>   
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="50dip"
+		    android:gravity="center_vertical"
+		    android:orientation="horizontal" >
+		    
+		    <TextView
+	        android:id="@+id/ConductName1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginStart="10dip"
+	        android:text="ProductName："
+	        android:textColor="#8800ff"
+	        android:textSize="18sp"/>
+		    
+		    <LinearLayout  
+	        android:layout_width="fill_parent"  
+	        android:layout_height="wrap_content"  
+	        android:gravity="end" > 
+		    <CheckBox
+             android:id="@+id/checkBox2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/btn_pressed" 
+	         android:layout_marginRight="10dip"
+	         android:layout_marginEnd="10dip"
+             android:checked="false"
+             android:text="显示" />
+	        </LinearLayout>
+	    
+		</LinearLayout>   
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="50dip"
+		    android:gravity="center_vertical"
+		    android:orientation="horizontal" >
+		    
+		    <TextView
+	        android:id="@+id/ProcedureName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginStart="10dip"
+	        android:text="ProcedureName："
+	        android:textColor="#8800ff"
+	        android:textSize="18sp"/>
+		    
+		    <LinearLayout  
+	        android:layout_width="fill_parent"  
+	        android:layout_height="wrap_content"  
+	        android:gravity="end" > 
+		    <CheckBox
+             android:id="@+id/checkBox3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/btn_pressed" 
+	         android:layout_marginRight="10dip"
+	         android:layout_marginEnd="10dip"
+             android:checked="false"
+             android:text="显示" />
+	        </LinearLayout>
+	    
+		</LinearLayout>   
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="50dip"
+		    android:gravity="center_vertical"
+		    android:orientation="horizontal" >
+		    
+		    <TextView
+	        android:id="@+id/Place1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginStart="10dip"
+	        android:text="Place："
+	        android:textColor="#8800ff"
+	        android:textSize="18sp"/>
+		    
+		    <LinearLayout  
+	        android:layout_width="fill_parent"  
+	        android:layout_height="wrap_content"  
+	        android:gravity="end" > 
+		    <CheckBox
+             android:id="@+id/checkBox4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/btn_pressed" 
+	         android:layout_marginRight="10dip"
+	         android:layout_marginEnd="10dip"
+             android:checked="false"
+             android:text="显示" />
+	        </LinearLayout>
+	    
+		</LinearLayout>   
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="50dip"
+		    android:gravity="center_vertical"
+		    android:orientation="horizontal" >
+		    
+		    <TextView
+	        android:id="@+id/Operator1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginStart="10dip"
+	        android:text="Operator："
+	        android:textColor="#8800ff"
+	        android:textSize="18sp"/>
+		    
+		    <LinearLayout  
+	        android:layout_width="fill_parent"  
+	        android:layout_height="wrap_content"  
+	        android:gravity="end" > 
+		    <CheckBox
+             android:id="@+id/checkBox5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/btn_pressed" 
+	         android:layout_marginRight="10dip"
+	         android:layout_marginEnd="10dip"
+             android:checked="false"
+             android:text="显示" />
+	        </LinearLayout>
+	    
+		</LinearLayout>   
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="50dip"
+		    android:gravity="center_vertical"
+		    android:orientation="horizontal" >
+		    
+		    <TextView
+	        android:id="@+id/OperateTime1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginStart="10dip"
+	        android:text="OperateTime："
+	        android:textColor="#8800ff"
+	        android:textSize="18sp"/>
+		    
+		    <LinearLayout  
+	        android:layout_width="fill_parent"  
+	        android:layout_height="wrap_content"  
+	        android:gravity="end" > 
+		    <CheckBox
+             android:id="@+id/checkBox6"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/btn_pressed" 
+	         android:layout_marginRight="10dip"
+	         android:layout_marginEnd="10dip"
+             android:checked="false"
+             android:text="显示" />
+	        </LinearLayout>
+	    
+		</LinearLayout>   
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="50dip"
+		    android:gravity="center_vertical"
+		    android:orientation="horizontal" >
+		    
+		    <TextView
+	        android:id="@+id/Enterprise1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginStart="10dip"
+	        android:text="Enterprise："
+	        android:textColor="#8800ff"
+	        android:textSize="18sp"/>
+		    
+		    <LinearLayout  
+	        android:layout_width="fill_parent"  
+	        android:layout_height="wrap_content"  
+	        android:gravity="end" > 
+		    <CheckBox
+             android:id="@+id/checkBox7"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/btn_pressed" 
+	         android:layout_marginRight="10dip"
+	         android:layout_marginEnd="10dip"
+             android:checked="false"
+             android:text="显示" />
+	        </LinearLayout>
+	    
+		</LinearLayout>   
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="50dip"
+		    android:gravity="center_vertical"
+		    android:orientation="horizontal" >
+		    
+		    <TextView
+	        android:id="@+id/WriterId"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginStart="10dip"
+	        android:text="WriterId："
+	        android:textColor="#8800ff"
+	        android:textSize="18sp"/>
+		    
+		    <LinearLayout  
+	        android:layout_width="fill_parent"  
+	        android:layout_height="wrap_content"  
+	        android:gravity="end" > 
+		    <CheckBox
+             android:id="@+id/checkBox8"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/btn_pressed" 
+	         android:layout_marginRight="10dip"
+	         android:layout_marginEnd="10dip"
+             android:checked="false"
+             android:text="显示" />
+	        </LinearLayout>
+	    
+		</LinearLayout>    
+    </LinearLayout>    
+</ScrollView>   
+<LinearLayout
+    android:id="@+id/buttons"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dip"
+>
+    
+     
+        <Button 
+            android:id="@+id/make"
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:background="@drawable/close_right"
+            android:text="生成二维码"
+            />
+    
+    
+    </LinearLayout>>
+</RelativeLayout>

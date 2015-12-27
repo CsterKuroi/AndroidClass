@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<Button
+    android:id="@+id/btn_about_return"
+    android:text="返回"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <com.meg7.widget.SvgImageView
+        android:id="@+id/rr"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/father"
+        app:svg_raw_resource="@raw/shape_star"
+        android:scaleType="centerCrop" />
+</LinearLayout>

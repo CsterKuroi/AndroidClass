@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theme colors -->
+    <color name="theme_light">#F48FB1</color>
+    <color name="theme_default_primary">#EC407A</color>
+    <color name="theme_window_background">#2A2A2A</color>
+    <color name="accent">#EEFF41</color>
+    <color name="gray_row_color">#ff515252</color>
+
+    <color name="color_set_1_primary">#4fc3f7</color>
+    <color name="color_set_1_accent">#009688</color>
+
+    <color name="color_set_2_primary">#42bd41</color>
+    <color name="color_set_2_accent">#673AB7</color>
+
+    <color name="color_set_3_primary">#ffb74d</color>
+    <color name="color_set_3_accent">#E91E63</color>
+
+    <color name="color_set_4_primary">#ff8a65</color>
+    <color name="color_set_4_accent">#d500f9</color>
+    
+    <color name="color_set_5_primary">#b6cc11</color>
+	<color name="color_set_5_accent">#b6cc11</color>
+	<color name="text">#ffffe1</color>
+	
+	<color name="circle_color">#323a45</color>
+    <color name="ring_color_1">#14b9d6</color>
+    <color name="ring_color_2">#008040</color>
+    <color name="ring_color_3">#FF8040</color>
+	<color name="ring_color_4">#FFC90E</color>
+
+</resources>

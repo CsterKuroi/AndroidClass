@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme">#a74f3b</color>
+    <color name="themeDark">#793221</color>
+    <color name="themeLight">#b86154</color>
+    <color name="themeHolyLight">#c89184</color>
+    <color name="colorPrimary">#a74f3b</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#c89184</color>
+    <color name="colorControlHighlight">#DDDDDD</color>
+    <color name="colorControlHolylight">#FFEEEE</color>
+    <color name="colorControlDark">#777777</color>
+    <color name="colorRipple">#ECEFF1</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

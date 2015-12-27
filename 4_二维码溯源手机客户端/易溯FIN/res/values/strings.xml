@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">易溯</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">欢迎使用易溯</string>
+    <string name="title_activity_user_home">易溯</string>
+	
+	<!-- LoginActivity -->
+    <string name="password">密码</string>
+    <string name="username">用户名</string>
+
+    <string name="title_activity_register">欢迎注册易溯</string>
+    
+    <!-- RegisterActivity -->
+    <string name="phone">手机号</string>
+    <string name="confirm">确认密码</string>
+    <string name="verifycode">验证码</string>
+    <string name="sendcode">发送验证码</string>
+    <string name="title_activity_login">欢迎登陆易溯</string>
+    <string name="title_activity_complete_info">完善信息</string>
+    
+    <!-- CompleteInfoActivity -->
+    <string name="hint">请完善您的个人信息！</string>
+	<string name="name">姓名</string>
+	<string name="factory">企业</string>
+	<string name="type">用户类别</string>
+	<string name="save">保存</string>
+</resources>

@@ -1,0 +1,54 @@
+<resources>
+
+    <string name="app_name">LifeHolder</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_count_task">Tomato Task</string>
+    <string name="action_edit_task">Task Edit</string>
+    <string name="action_edit_title">Task Title</string>
+
+    <string name="action_edit_general">GENERAL</string>
+    <string name="action_edit_general_title">Title:</string>
+    <string name="action_edit_general_titleHint">  type description here</string>
+    <string name="action_edit_general_priority">Priority: </string>
+    <string name="action_edit_general_priority1">1</string>
+    <string name="action_edit_general_priority2">2</string>
+    <string name="action_edit_general_priority3">3</string>
+    <string name="action_edit_general_remind">Vibrator remind</string>
+
+
+    <string name="action_edit_tomato1">TOMAT</string>
+    <string name="action_edit_tomato2">ES: </string>
+    <string name="action_edit_min_tomato">1×25min</string>
+    <string name="action_edit_max_tomato">7×25min</string>
+    <string name="action_edit_title_time">SelectTime</string>
+
+    <string name="action_edit_deadline">DEADLINE</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_Fight">JUST DO IT!</string>
+    <string name="action_Fighting">Fighting!</string>
+
+    <string name="result_complete">Complete</string>
+    <string name="result_error">Error</string>
+
+    <string name="message_ok">OK</string>
+    <string name="message_cancel">CANCEL</string>
+    <string name="message_yes">Yes</string>
+    <string name="message_no">No</string>
+    <string name="message_save">save</string>
+    <string name="message_title_upload">Upload</string>
+    <string name="message_content_upload">Save your changes ?</string>
+
+    <string name="message_title_warning">Warning</string>
+    <string name="message_content_leave">Are you sure to leave ?</string>
+    <string name="message_content_remove">Confirm to remove ?</string>
+
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="title_activity_count">CountActivity</string>
+    <string name="title_activity_top">TopActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lightschedule" >
+
+    <application    xmlns:tools="http://schemas.android.com/tools"
+        tools:replace="android:icon,android:theme"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.leafli7.lightschedule.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.leafli7.lightschedule.Activity.AddLessonActivity"
+            android:label="@string/title_activity_add_lesson" >
+        </activity>
+        <activity android:name="com.leafli7.lightschedule.Activity.QrCaptureActivity"></activity>
+    </application>
+
+</manifest>

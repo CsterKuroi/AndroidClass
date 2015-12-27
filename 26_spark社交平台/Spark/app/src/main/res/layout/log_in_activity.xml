@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户名："
+        android:textStyle="bold"
+        android:gravity="right"
+        android:padding="3dp"
+        android:layout_above="@+id/tvPassword"
+        android:layout_alignEnd="@+id/tvPassword" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_above="@+id/tvPassword"
+        android:layout_alignEnd="@+id/ivLogIn"
+        android:layout_toEndOf="@+id/tvUserName">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录密码: "
+        android:textStyle="bold"
+        android:gravity="right"
+        android:padding="3dp"
+        android:id="@+id/tvPassword"
+        android:layout_marginBottom="101dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:padding="3dp"
+        android:scrollHorizontally="true"
+        android:layout_below="@+id/etUserName"
+        android:layout_alignEnd="@+id/etUserName"
+        android:layout_toEndOf="@+id/tvUserName" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/btnLogIn"
+        android:layout_alignStart="@+id/btnLogIn" />
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:layout_below="@+id/etPassword"
+        android:layout_alignEnd="@+id/etPassword"
+        android:layout_alignStart="@+id/tvUserName" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivLogIn"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/login"
+        android:layout_above="@+id/etUserName"
+        android:layout_gravity="center"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

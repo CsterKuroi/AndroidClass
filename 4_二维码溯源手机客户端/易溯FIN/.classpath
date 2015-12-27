@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="E:/快盘/大三上/安卓/易溯FIN/libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="E:/快盘/大三上/安卓/易溯FIN/libs/Bmob_Push_V0.6beta_20150408.jar"/>
+	<classpathentry kind="lib" path="E:/快盘/大三上/安卓/易溯FIN/libs/BmobSDK_V3.4.5_1111.jar"/>
+	<classpathentry kind="lib" path="E:/快盘/大三上/安卓/易溯FIN/libs/core.jar"/>
+	<classpathentry kind="lib" path="E:/快盘/大三上/安卓/易溯FIN/libs/domob_android_sdk.jar"/>
+	<classpathentry kind="lib" path="E:/快盘/大三上/安卓/易溯FIN/libs/okhttp-2.4.0.jar"/>
+	<classpathentry kind="lib" path="E:/快盘/大三上/安卓/易溯FIN/libs/okio-1.4.0.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

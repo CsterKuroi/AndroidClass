@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qiushou"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.food.trace.CompleteInfoActivity" >
+
+  
+	<TextView
+        android:id="@+id/complete_info_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/hint"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/complete_info_username"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/complete_info_textView"
+        android:ems="10"
+        android:hint = "@string/name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/complete_info_factory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/complete_info_username"
+        android:layout_alignLeft="@+id/complete_info_username"
+        android:layout_below="@+id/complete_info_username"
+        android:layout_marginTop="10dp"
+        android:hint = "@string/factory"
+        android:ems="10"
+        
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/complete_info_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/complete_info_factory"
+        android:layout_below="@+id/complete_info_factory"
+        android:layout_marginTop="10dp"
+        android:hint = "@string/type"
+        android:ems="10"
+        
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/complete_info_save"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/save" />
+
+    
+
+    
+
+    <View
+        android:id="@+id/complete_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+
+   
+
+</RelativeLayout>

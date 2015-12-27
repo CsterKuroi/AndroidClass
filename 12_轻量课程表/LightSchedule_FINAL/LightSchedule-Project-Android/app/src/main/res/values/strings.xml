@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BleApp0914</string>
+
+    <string name="title_config">Config</string>
+    <string name="title_hack">Hack</string>
+    <string name="title_test">Test</string>
+
+    <string name="bleDeviceName">OBDBLE</string>
+
+    <string name="service_uuid">0000ffe0-0000-1000-8000-00805f9b34fb</string>
+    <string name="characteristic_uuid">0000ffe1-0000-1000-8000-00805f9b34fb</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

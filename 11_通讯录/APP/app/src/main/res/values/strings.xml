@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">APP</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_activity2">MainActivity2Activity</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="title_activity_send_sms">SendSmsActivity</string>
+    <string name="title_activity_suggest">SuggestActivity</string>
+    <string name="title_activity_about_author">AboutAuthorActivity</string>
+</resources>

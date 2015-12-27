@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/KWAI/AndroidStudioProjects/healthfood/app/build/intermediates/res/merged/debug/layout/list_view_row.xml",
+        "source": "/Users/KWAI/AndroidStudioProjects/healthfood/app/src/main/res/layout/list_view_row.xml"
+    },
+    {
+        "merged": "/Users/KWAI/AndroidStudioProjects/healthfood/app/build/intermediates/res/merged/debug/layout/foodinfo.xml",
+        "source": "/Users/KWAI/AndroidStudioProjects/healthfood/app/src/main/res/layout/foodinfo.xml"
+    },
+    {
+        "merged": "/Users/KWAI/AndroidStudioProjects/healthfood/app/build/intermediates/res/merged/debug/layout/ex_foodinfo.xml",
+        "source": "/Users/KWAI/AndroidStudioProjects/healthfood/app/src/main/res/layout/ex_foodinfo.xml"
+    },
+    {
+        "merged": "/Users/KWAI/AndroidStudioProjects/healthfood/app/build/intermediates/res/merged/debug/layout/about.xml",
+        "source": "/Users/KWAI/AndroidStudioProjects/healthfood/app/src/main/res/layout/about.xml"
+    },
+    {
+        "merged": "/Users/KWAI/AndroidStudioProjects/healthfood/app/build/intermediates/res/merged/debug/layout/list.xml",
+        "source": "/Users/KWAI/AndroidStudioProjects/healthfood/app/src/main/res/layout/list.xml"
+    },
+    {
+        "merged": "/Users/KWAI/AndroidStudioProjects/healthfood/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/KWAI/AndroidStudioProjects/healthfood/app/src/main/res/layout/main.xml"
+    }
+]

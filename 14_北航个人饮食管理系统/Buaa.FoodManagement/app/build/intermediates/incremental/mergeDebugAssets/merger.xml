@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/KWAI/AndroidStudioProjects/healthfood/app/src/main/assets"><file name="food.xml" path="/Users/KWAI/AndroidStudioProjects/healthfood/app/src/main/assets/food.xml"/><file name="food_tranditional.xml" path="/Users/KWAI/AndroidStudioProjects/healthfood/app/src/main/assets/food_tranditional.xml"/></source></dataSet><dataSet config="debug"><source path="/Users/KWAI/AndroidStudioProjects/healthfood/app/src/debug/assets"/></dataSet></merger>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+  >
+  <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/actionbar"
+
+  >
+  <Button
+    android:id="@+id/backbutton"
+    android:background="@drawable/btn_back"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_margin="10dp"
+  ></Button>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+
+      <Button
+          android:id="@+id/like"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:background="@drawable/like"
+          android:layout_margin="10dp"
+          android:padding="4dp"
+          android:clickable="false"
+          android:textColor="@color/black"
+          ></Button>
+    </LinearLayout>
+  </LinearLayout>
+  
+  
+  <RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="@color/white"
+  
+  >
+  <Button
+  android:id="@+id/Button"
+  android:layout_width="100dp"
+  android:layout_height="100dp"
+  android:background="@drawable/pork"
+  android:layout_margin="10dp"
+  android:padding="4dp"
+  android:clickable="false"
+  android:textColor="@color/black"
+  ></Button>
+  <TextView
+    android:id="@+id/TextView03"
+    android:text="@string/text1"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:width="10px"
+    android:layout_toRightOf="@id/Button"
+    android:layout_margin="10dp"
+  ></TextView>
+  </RelativeLayout>
+  <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/food_info_middle_background"
+    android:text="@string/middle"
+    android:textColor="@color/white"
+    android:gravity="center_vertical"
+    android:layout_marginTop="15dp"
+  ></TextView>
+  <ListView
+    android:id="@id/android:list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:background="@color/white"
+  ></ListView>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+        <EditText android:id="@+id/edit_message"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_message" />
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_send" />
+        </LinearLayout>
+</LinearLayout>

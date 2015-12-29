@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#a7fff57b"
+    android:weightSum="1"
+    android:focusableInTouchMode="true"
+    android:focusable="false">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="116dp"
+            android:layout_height="81dp"
+            android:src="@drawable/home_icon" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:id="@+id/edittext_hostname"
+            android:background="#fcf6ab"
+            android:textColor="#ff7628"
+            android:gravity="center_vertical|bottom|left"
+            android:textSize="@dimen/abc_text_size_headline_material"
+            android:textStyle="bold"
+            android:editable="true"
+            android:inputType="text"
+            android:hint="@string/hostname_hint"
+            android:singleLine="true"
+            android:maxLength="16"
+            android:focusableInTouchMode="true" />
+
+
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="249dp"
+        android:layout_height="218dp"
+        android:id="@+id/lock_button"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:layout_gravity="center_horizontal"
+        android:focusable="true"
+        android:onClick="onClickBtn"/>
+
+
+
+
+
+
+</LinearLayout>

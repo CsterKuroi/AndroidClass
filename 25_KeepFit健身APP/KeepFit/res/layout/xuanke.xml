@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="sjx.a.MainActivity" 
+    android:background="@drawable/grayb">
+    
+    <TextView android:id="@+id/button0"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:text=">>>   选课"
+        android:textSize="22sp"
+        android:gravity="left"
+        android:background="@drawable/tou"/>
+ 
+  	<ImageView android:id="@+id/tu"
+        android:layout_marginBottom="40dip"
+        android:layout_below="@id/button0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+  	
+  	<TextView android:id="@+id/jieshao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="50dip"
+        android:layout_below="@id/tu"/>
+  	
+  	<Button android:id="@+id/xuanke"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:text="选课"
+        android:background="@drawable/blue"
+        android:layout_below="@id/jieshao"/>
+    
+</RelativeLayout>

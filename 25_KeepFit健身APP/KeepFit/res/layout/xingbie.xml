@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="shao.a.MainActivity"
+    android:background="@drawable/grayb">
+
+    <Button android:id="@+id/button0"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:text=">>>   return"
+        android:textSize="22sp"
+        android:gravity="left"
+        android:layout_marginBottom="30dip"
+        android:background="@drawable/tou"/>
+    
+    <RadioGroup android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:checkedButton="@+id/xingbie"
+        android:layout_below="@id/button0"
+        android:id="@+id/menu"
+        android:layout_marginBottom="30dip">
+        <RadioButton android:text="女"
+            android:id="@+id/nv"
+            android:textSize="20sp"
+            android:layout_marginBottom="30dip"/>
+        <RadioButton android:text="男"
+            android:id="@+id/nan"
+            android:textSize="20sp"/>
+    </RadioGroup>
+    <TextView android:id="@+id/wu"
+        android:layout_alignParentRight="true"
+        android:layout_width="30dip"
+        android:layout_height="45dip"
+        android:background="@drawable/grayb"
+        android:layout_below="@id/menu"/>
+    
+    <Button android:id="@+id/button1"
+        android:layout_width="60dip"
+        android:layout_height="45dip"
+        android:text="确认 "  
+        android:layout_below="@id/menu"
+        android:layout_toLeftOf="@id/wu" 
+        android:layout_alignTop="@id/wu"   
+        android:background="@drawable/blue"/>
+    
+</RelativeLayout>

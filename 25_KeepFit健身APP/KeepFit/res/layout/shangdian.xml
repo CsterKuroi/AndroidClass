@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sjx.a.MainActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"     
+    android:background="@drawable/grayb">
+    
+    <ImageView android:id="@+id/image"
+        android:src="@drawable/tu"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"/>
+    
+    <TextView android:id="@+id/label"
+        android:layout_toRightOf="@id/image" 
+        android:layout_alignTop="@id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:text="  课程商店"
+        android:textSize="25sp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/tou"/>
+    
+    <TableLayout android:id="@+id/shaixuan"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/white"
+        android:layout_below="@id/label"
+        android:stretchColumns="*"
+        android:padding="3dip"><!-- have an eye on ! -->
+        <TableRow><!-- row1 -->                
+        <Spinner  android:id="@+id/xingbie"  
+            android:layout_width="1dip" 
+            android:gravity="center" 
+            android:layout_height="fill_parent" 
+            android:entries="@array/xingbie"/>
+        <Spinner  android:id="@+id/buwei"  
+            android:layout_width="1dip"  
+            android:gravity="center"
+            android:layout_height="fill_parent" 
+            android:entries="@array/buwei"/>
+        <Spinner  android:id="@+id/dengji"  
+            android:layout_width="1dip"  
+            android:gravity="center"
+            android:layout_height="fill_parent" 
+            android:entries="@array/dengji"/>   
+        </TableRow>
+    </TableLayout>
+                   
+    <TableLayout android:id="@+id/caidan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="0,1,2"
+        android:layout_alignParentBottom="true"><!-- have an eye on ! -->
+        <TableRow><!-- row1 -->
+        <Button android:id="@+id/button0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shangdian" 
+        android:layout_column="0"/> 
+        <Button android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kecheng"
+        android:layout_column="1"/>
+        <Button android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wo"
+        android:layout_column="2"/>   
+        </TableRow>
+    </TableLayout>
+    
+ 	<ListView android:id="@+id/list"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@id/shaixuan"
+	    android:layout_above="@id/caidan"
+	></ListView>
+        
+</RelativeLayout>

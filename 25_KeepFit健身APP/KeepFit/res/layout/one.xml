@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="sjx.a.MainActivity" 
+    android:background="@drawable/grayb">
+    
+    <TextView android:id="@+id/button0"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:text=">>>   课程"
+        android:textSize="22sp"
+        android:gravity="left"
+        android:background="@drawable/tou"/>
+    
+    <ImageView android:id="@+id/tu"
+        android:layout_marginBottom="20dip"
+        android:layout_below="@id/button0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+ 
+    <TextView android:id="@+id/naozhong"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip" 
+        android:gravity="center"
+        android:background="@drawable/white"
+        android:layout_marginBottom="10dip"
+        android:layout_below="@id/tu"
+        android:layout_alignParentRight="true"/>
+    
+    <TextView android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_below="@id/tu"
+        android:text="闹钟提醒时间"
+        android:gravity="center"
+        android:layout_marginBottom="10dip"
+        android:layout_toLeftOf="@id/naozhong" 
+        android:layout_alignTop="@id/naozhong"
+        android:background="@drawable/whitee"/>
+    
+    <TextView android:id="@+id/tianshu"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip" 
+        android:background="@drawable/white"
+        android:gravity="center"
+        android:layout_marginBottom="10dip"
+        android:layout_below="@id/naozhong"
+        android:layout_alignParentRight="true"/>
+    
+    <TextView android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_below="@id/button1"
+        android:text="已锻炼天数"
+        android:gravity="center"
+        android:layout_marginBottom="40dip"
+        android:layout_toLeftOf="@id/tianshu" 
+        android:layout_alignTop="@id/tianshu"
+        android:background="@drawable/whitee"/>
+    
+    <Button android:id="@+id/playvideo"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_below="@id/button2"
+        android:text="开始锻炼"
+        android:layout_marginBottom="20dip"
+        android:background="@drawable/blue"/>
+    
+    <Button android:id="@+id/daka"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_below="@id/playvideo"
+        android:text="打卡"
+        android:background="@drawable/blue"/>
+    
+</RelativeLayout>

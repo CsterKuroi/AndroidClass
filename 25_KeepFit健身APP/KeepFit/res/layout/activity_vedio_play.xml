@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="85dp"
+            android:layout_height="35dp"
+            android:text="stop"
+            android:textSize="10sp"
+            android:id="@+id/stop" />
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="85dp"
+            android:layout_height="35dp"
+            android:text="play"
+            android:textSize="10sp"/>
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <SurfaceView
+        android:id="@+id/mSurfaceView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+    </SurfaceView>
+
+    <RelativeLayout
+        android:background="#00000000"
+        android:focusable="true"
+        android:gravity="top"
+        android:layout_gravity="center_horizontal|top"
+        android:id="@+id/rl2"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="65dp">
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <MediaController
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mediaController"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+

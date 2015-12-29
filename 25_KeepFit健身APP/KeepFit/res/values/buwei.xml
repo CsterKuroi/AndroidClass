@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="buwei">
+        <item>全部部位</item>
+        <item>腿部</item>
+        <item>腰部</item>
+        <item>背部</item>
+        <item>手臂</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dengji">
+        <item>全部难度</item>
+        <item>初级</item>
+        <item>中级</item>
+        <item>高级</item>
+    </string-array>
+</resources>

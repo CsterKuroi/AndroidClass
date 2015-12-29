@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="sjx.a.MainActivity" 
+    android:background="@drawable/grayb">
+    
+    <Button android:id="@+id/button0"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:text=">>>   return"
+        android:textSize="22sp"
+        android:gravity="left"
+        android:layout_marginBottom="30dip"
+        android:background="@drawable/tou"/>
+    
+    <EditText android:id="@+id/yonghuming"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/button0"
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="20dip"/>
+    
+    <TextView android:id="@+id/wu"
+        android:layout_alignParentRight="true"
+        android:layout_width="30dip"
+        android:layout_height="45dip"
+        android:background="@drawable/grayb"
+        android:layout_below="@id/yonghuming"/>
+    
+    <Button android:id="@+id/button1"
+        android:layout_width="60dip"
+        android:layout_height="45dip"
+        android:text="确认 "  
+        android:layout_below="@id/yonghuming"
+        android:layout_toLeftOf="@id/wu" 
+        android:layout_alignTop="@id/wu"   
+        android:background="@drawable/blue"/>
+    
+</RelativeLayout>

@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="sjx.a.MainActivity" 
+    android:background="@drawable/grayb">
+ 
+    <ImageView android:id="@+id/image"
+        android:src="@drawable/tu"
+        android:layout_width="50dip"
+        android:layout_height="50dip"/>
+    
+    <TextView android:id="@+id/label"
+        android:layout_toRightOf="@id/image" 
+        android:layout_alignTop="@id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:text="  个人资料"
+        android:textSize="25sp"
+        android:layout_marginBottom="50dip"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/tou"/>
+       
+    <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="0,1,2"
+        android:layout_alignParentBottom="true"><!-- have an eye on ! -->
+        <TableRow><!-- row1 -->
+        <Button android:id="@+id/button0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shangdian" 
+        android:layout_column="0"/> 
+        <Button android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kecheng"
+        android:layout_column="1"/>
+        <Button android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wo"
+        android:layout_column="2"/>   
+        </TableRow>
+    </TableLayout>
+    
+    <TextView android:id="@+id/yonghuming"
+        android:layout_width="wrap_content"
+        android:layout_height="90dip" 
+        android:layout_marginBottom="50dip"
+        android:gravity="center"
+        android:background="@drawable/white"
+        android:textSize="22sp"
+        android:layout_below="@id/label"
+        android:layout_alignParentRight="true"/>
+    
+    <Button android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="90dip"
+        android:text="用户名 "
+        android:layout_marginBottom="50dip"
+        android:textSize="22sp"
+        android:layout_toLeftOf="@id/yonghuming" 
+        android:layout_alignTop="@id/yonghuming"
+        android:background="@drawable/whitee"/>
+    
+    <TextView android:id="@+id/xingbie"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip" 
+        android:background="@drawable/white"
+        android:gravity="center"
+        android:layout_marginBottom="10dip"
+        android:layout_below="@id/yonghuming"
+        android:layout_alignParentRight="true"/>
+    
+    <Button android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_below="@id/button3"
+        android:text="性别"
+        android:layout_marginBottom="10dip"
+        android:layout_toLeftOf="@id/xingbie" 
+        android:layout_alignTop="@id/xingbie"
+        android:background="@drawable/whitee"/>
+    
+    <TextView android:id="@+id/tizhong"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_marginBottom="10dip"
+        android:gravity="center"
+        android:layout_below="@id/xingbie"
+        android:background="@drawable/white"
+        android:layout_alignParentRight="true"/>
+    
+    <Button android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_below="@id/button4"
+        android:text="体重"
+        android:layout_marginBottom="10dip"
+        android:layout_toLeftOf="@id/tizhong" 
+        android:layout_alignTop="@id/tizhong"
+        android:background="@drawable/whitee"/>
+    
+    <TextView android:id="@+id/shengao"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip" 
+        android:layout_marginBottom="10dip"
+        android:background="@drawable/white"
+        android:gravity="center"
+        android:layout_below="@id/tizhong"
+        android:layout_alignParentRight="true"/>
+    
+    <Button android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_below="@id/button5"
+        android:text="身高"
+        android:layout_marginBottom="30dip"
+        android:layout_toLeftOf="@id/shengao" 
+        android:layout_alignTop="@id/shengao"
+        android:background="@drawable/whitee"/>
+    
+</RelativeLayout>
